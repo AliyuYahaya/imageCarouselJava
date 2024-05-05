@@ -3,8 +3,6 @@ package imagecarousel;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class imageCarousel 
 {
@@ -16,7 +14,7 @@ public class imageCarousel
         // Add your own more image URLs here
     };
     private int currentIndex = 0;
-    private JLabel imageLabel;
+    private final  JLabel imageLabel;
     // ====================================================================== //
 
     // ==================== [Method-That-Creates-JFrame] ==================== //
